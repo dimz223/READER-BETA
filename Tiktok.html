@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Downloader - Reader Beta</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/tiktok.css">
+</head>
+<body>
+    <div class="downloader-container">
+        <header class="downloader-header" style="background: #00d9ff;">
+            <a href="../index.html" class="back-btn">←</a>
+            <h2>📥 TikTok Downloader</h2>
+        </header>
+
+        <div class="content">
+            <div class="info-card">
+                <p>Tempelin link TikTok, gw ambil videonya tanpa watermark.</p>
+            </div>
+
+            <div class="input-group">
+                <input type="text" id="tiktokUrl" placeholder="https://tiktok.com/@user/video/123456" class="url-input">
+                <button id="downloadBtn" class="download-btn">⬇️ Download</button>
+            </div>
+
+            <div class="result-area" id="resultArea" style="display: none;">
+                <!-- Hasil preview akan muncul disini -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom Navigation -->
+    <nav class="bottom-nav">
+        <a href="../index.html" class="nav-item">
+            <span>🏠</span>
+            <span class="label">Home</span>
+        </a>
+        <a href="wormgpt.html" class="nav-item">
+            <span>🧠</span>
+            <span class="label">WormGPT</span>
+        </a>
+        <a href="tiktok.html" class="nav-item active">
+            <span>📥</span>
+            <span class="label">Downloader</span>
+        </a>
+    </nav>
+
+    <script src="../js/tiktok.js"></script>
+</body>
+</html>
